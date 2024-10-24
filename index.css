@@ -1,0 +1,24 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+
+}
+.main{
+    height: auto;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVdN4Owcd56WpWj8p-CK0pSxRn_9CqjMN9phUiXQP2eOYIfKYhBAXiazkIX7mi8NbC7I&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px !important;
+}
+.main-child{
+    padding: 20px !important;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.397);
+   filter: blur(0.5px);
+}
+.jj{
+    text-align: justify;
+}
