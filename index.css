@@ -16,7 +16,7 @@
 .main-child{
     padding: 20px !important;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.397);
+    background-color: rgba(255, 255, 256, 0.397);
    filter: blur(0.5px);
 }
 .jj{
