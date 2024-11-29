@@ -22,3 +22,27 @@
 .jj{
     text-align: justify;
 }
+.abc{
+    display: flex;
+    justify-content: center;
+}
+.ring{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    animation: fire 4s linear infinite ;
+    background-color: black;
+}
+
+@keyframes fire {
+    0%{
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(5);
+        opacity: 0;
+    }
+}
