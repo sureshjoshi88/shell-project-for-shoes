@@ -52,3 +52,27 @@
     background: linear-gradient(to right ,rgb(187, 56, 189),rgb(48, 59, 152)) !important;
     color: white;
 }
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .font-head{
+        font-size: 50px;
+    }
+}
+@media (max-width:400px) {
+    .font-head{
+        font-size: 30px;
+    }
+    .navbar{
+        width: 80%;
+    }
+    .butt2{
+        padding: 10px;
+    }
+}
