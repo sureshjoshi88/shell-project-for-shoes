@@ -89,7 +89,9 @@
     background: linear-gradient(to right ,rgb(226, 168, 205),rgb(216, 243, 210));
 
 }
-
+.justy-p{
+    text-align: justify;
+}
 
 
 
