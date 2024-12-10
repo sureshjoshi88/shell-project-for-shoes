@@ -125,7 +125,11 @@
 .img-round{
     border-radius: 10px;
 }
-
+.foter-border-bottom{
+    height: 1px;
+    width: 40%;
+    background: linear-gradient(to right ,rgb(187, 56, 189),rgb(48, 59, 152));
+}
 
 
 
