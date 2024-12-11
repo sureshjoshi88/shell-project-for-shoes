@@ -130,6 +130,9 @@
     width: 40%;
     background: linear-gradient(to right ,rgb(187, 56, 189),rgb(48, 59, 152));
 }
+.curser{
+    cursor: pointer;
+}
 
 
 
