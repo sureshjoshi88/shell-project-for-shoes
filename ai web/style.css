@@ -101,6 +101,11 @@
     padding: 5px;
     border-radius: 25px;
     background-color: white;
+    
+}
+.div-forcontent:hover{
+    transform: scale(1.03);
+    background-color: rgba(219, 139, 155, 0.185);
 }
 .parent-fordiv{
     background: linear-gradient(to right,rgb(240, 238, 238),rgba(252, 243, 243, 0.781));
@@ -130,7 +135,7 @@
 }
 .foter-border-bottom{
     height: 1px;
-    width: 40%;
+    width: 30%;
     background: linear-gradient(to right ,rgb(187, 56, 189),rgb(48, 59, 152));
 }
 .curser{
@@ -146,7 +151,7 @@
     .font-head{
         font-size: 50px;
     }
-    
+   
 }
 @media (max-width:992px) {
     .heigth-img{
