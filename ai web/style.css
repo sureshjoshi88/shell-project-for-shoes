@@ -58,6 +58,7 @@
     color: white;
     border-radius: 5px;
 }
+
 .img-1{
     border-radius: 20px;
 
@@ -141,7 +142,10 @@
 .curser{
     cursor: pointer;
 }
+.curser:hover{
+    text-decoration:  underline;
 
+}
 
 
 
