@@ -155,6 +155,12 @@
     .font-head{
         font-size: 49px;
     }
+    .foter-aligin{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+    }
    
 }
 @media (max-width:992px) {
