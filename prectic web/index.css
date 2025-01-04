@@ -9,10 +9,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 8px;
+    
 }
 .header1-main{
     display: flex;
-    gap: 10px;
+    gap: 18px;
     align-items: center;
     padding: 5px;
 }
@@ -20,4 +21,34 @@
     display: flex;
     gap: 10px;
     align-items: baseline;
+}
+.header2-main-icon{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.search-icon{
+    background-color: #0AA4E3;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input1{
+    right: -80% !important;
+}
+.header2-main-icon:active{
+    width: 100px;
+    border-radius: 0%;
+}
+.search-icon:active{
+    right: 0;
+    background-color: red;
 }
