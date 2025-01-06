@@ -58,6 +58,16 @@
     background-color: red;
     color: white;
 }
-
+.bg-main-img{
+    height: auto;
+    width: 100%;
+    background-image: url(https://www.practice-web.com/sliders/banner1-1587908453.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-thr{
+    color: #0AA4E3;
+}
 
 
