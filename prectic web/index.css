@@ -102,3 +102,6 @@
     font-weight: 600;
 
 }
+.hover-link:hover{
+    text-decoration: underline;
+}
