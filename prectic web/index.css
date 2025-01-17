@@ -74,12 +74,13 @@
     transform: scale(1.8);
 }
 .background-images{
-    height: 80vh;
+    height: auto;
     width: 98.6vw;
     background-image: url(https://www.practice-web.com/assetsfront/img/cta-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .bg-color{
