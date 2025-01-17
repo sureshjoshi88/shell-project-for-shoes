@@ -73,3 +73,16 @@
 .icon-hover:hover{
     transform: scale(1.8);
 }
+.background-images{
+    height: 80vh;
+    width: 98.6vw;
+    background-image: url(https://www.practice-web.com/assetsfront/img/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-color{
+    background-color: #30b0e39c;
+    height: 100%;
+}
