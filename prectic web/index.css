@@ -83,6 +83,16 @@
     
 }
 .bg-color{
-    background-color: #30b0e39c;
+    background-color: #30b0e383;
     height: 100%;
+}
+.buton-for-child-row{
+    height: 8vh;
+    /* width: 90%; */
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    padding: 7px;
 }
