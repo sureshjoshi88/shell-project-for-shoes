@@ -70,4 +70,6 @@
     color: #0AA4E3;
 }
 
-
+.icon-hover:hover{
+    transform: scale(1.8);
+}
