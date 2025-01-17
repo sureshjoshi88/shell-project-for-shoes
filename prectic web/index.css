@@ -87,9 +87,9 @@
     height: 100%;
 }
 .buton-for-child-row{
-    height: 8vh;
-    /* width: 90%; */
-    border-radius: 20px;
+    height: 9vh;
+    width: 100%;
+    border-radius: 25px;
     border: 2px solid white;
     background-color: transparent;
     color: white;
