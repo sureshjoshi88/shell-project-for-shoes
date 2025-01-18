@@ -97,8 +97,10 @@
     font-weight: 700;
     padding: 7px;
 }
+
 .buton-for-child-row:hover{
     background-color: white;
+    color: #17b1eec0;
 }
 .nnn{
     line-height: 6px;
