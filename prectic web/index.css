@@ -113,3 +113,11 @@
 .color-background-blue{
     background-color: #0AA4E3;
 }
+.btn-for-red-container{
+    border: 2px solid red;
+    border-radius: 29px;
+    padding: 12px;
+    padding-right: 18px;
+    padding-left: 18px;
+    background-color: transparent;
+}
