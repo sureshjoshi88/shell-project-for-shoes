@@ -131,3 +131,13 @@
     color: #0AA4E3;
     font-size: 42px;
 }
+.div-for-bg-color{
+    height: 37px;
+    width: 100%;
+    background-color: #0AA4E3;
+    color: white;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
