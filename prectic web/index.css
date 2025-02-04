@@ -163,3 +163,9 @@
 .line-height{
     line-height: 6px;
 }
+.fon-down{
+    font-size: 13px;
+}
+.fix-width{
+    width: 33.33%;
+}
