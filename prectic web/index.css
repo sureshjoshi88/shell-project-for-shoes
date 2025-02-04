@@ -166,6 +166,14 @@
 .fon-down{
     font-size: 13px;
 }
+.div-for-x-scroll{
+    display: flex;
+    gap: 21px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
 .fix-width{
-    width: 33.33%;
+    min-width: 22rem;
 }
