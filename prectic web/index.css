@@ -177,3 +177,17 @@
 .fix-width{
     min-width: 22rem;
 }
+
+.bg-imges-short{
+    background-image: url("https://www.practice-web.com/assetsfront/img/counters-bg.jpg");
+    height: 20vh;
+    width: 98.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div-color-child{
+    background-color: #0aa5e395;
+    height: 100%;
+    width: 98.6vw;
+}
