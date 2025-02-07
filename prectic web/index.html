@@ -615,10 +615,31 @@
   <div class="container-fluid mt-4 bg-imges-short">
     <div class="row div-color-child">
       <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
-        <div class="text-center text-white">
-          <i class="fa-solid fa-handshake fs-1" style="color: #f7f7f8;"></i>
+        <div class="text-center text-white p-2">
+          <i class="fa-solid fa-handshake fs-1" style="color: #ffffff;"></i>
             <p class="fw-bold" id="number"></p>
           <p class="fw-bolder fs-5">Serving Dentists Since</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+        <div class="text-center text-white p-2">
+          <i class="fa-regular fa-face-smile fs-1" style="color: #ffffff;"></i>
+          <p class="fw-bold" id="number1"></p>
+          <p class="fw-bolder fs-5">Successful Dentists</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+        <div class="text-center text-white p-2">
+          <i class="fa-regular fa-user fs-1" style="color: #ffffff;"></i>
+           <p class="fw-bold" id="number2"></p>
+          <p class="fw-bolder fs-5">Patients Benefited</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+        <div class="text-center text-white p-2">
+          <i class="fa-solid fa-arrow-trend-up fs-1" style="color: #ffffff;"></i>
+           <p class="fw-bold fs-1">Unlimited</p>
+          <p class="fw-bolder fs-5">Your Revenue and Productivity Boost</p>
         </div>
       </div>
     </div>
@@ -626,14 +647,30 @@
 
   <script>
     let main = document.getElementById("number")
+    let main1 = document.getElementById("number1")
+    let main2 = document.getElementById("number2")
 
     function getvalue(){
-      for(let i = 1;i<=100;i++){
+      for(let i = 1;i<=1994;i++){
         setTimeout(()=>{
           main.innerHTML = i;
           main.style.fontSize = "45px"
 
-        },i*25);
+        },i*3);
+      }
+      for(let i = 1;i<=2000;i++){
+        setTimeout(()=>{
+          main1.innerHTML = i;
+          main1.style.fontSize = "45px"
+
+        },i*3);
+      }
+      for(let i = 1;i<=2654;i++){
+        setTimeout(()=>{
+          main2.innerHTML = i;
+          main2.style.fontSize = "45px"
+
+        },i*3);
       }
     }
     getvalue();
