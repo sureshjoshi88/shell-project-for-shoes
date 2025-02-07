@@ -180,7 +180,7 @@
 
 .bg-imges-short{
     background-image: url("https://www.practice-web.com/assetsfront/img/counters-bg.jpg");
-    height: 20vh;
+    height: auto;
     width: 98.6vw;
     background-repeat: no-repeat;
     background-size: cover;
