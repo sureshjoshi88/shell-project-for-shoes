@@ -205,5 +205,11 @@
     justify-content: center;
     align-items:center;
     font-size: 22px;
-
+    transition: all  0.5s;
+}
+.foter-icon-div:hover{
+    background-color: crimson;
+    color: white;
+    transform: scale(1.2);
+   
 }
