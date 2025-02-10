@@ -213,3 +213,9 @@
     transform: scale(1.2);
    
 }
+.input-clas{
+    border: 1.6px solid white;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}
