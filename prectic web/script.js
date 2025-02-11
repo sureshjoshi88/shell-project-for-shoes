@@ -26,3 +26,6 @@ function getvalue(){
   }
 }
 getvalue();
+
+let input = document.getElementById("input-value");
+let icon = document.getElementById("icon-search")
