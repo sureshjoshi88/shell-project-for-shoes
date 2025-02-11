@@ -25,32 +25,33 @@
 }
 .header2-main-icon{
     display: flex;
-    overflow: hidden;
     position: relative;
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
+    gap: 8px;
+   
 }
 .search-icon{
     background-color: #0AA4E3;
-    position: absolute;
     padding: 10px;
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.trans{
+    transition: all 0.4s 0.1s ease-in-out;
 }
 .input1{
-    right: -80% !important;
+    opacity: 0;
+    border-radius: 6px;
+    border: 1px solid white;
+    outline: none;
+    padding: 5px;
 }
-.header2-main-icon:active{
-    width: 100px;
-    border-radius: 0%;
-}
-.search-icon:active{
-    right: 0;
+
+.search-icon:hover{
     background-color: red;
 }
 .button-nav{

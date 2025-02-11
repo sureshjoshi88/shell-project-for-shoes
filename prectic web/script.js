@@ -29,3 +29,10 @@ getvalue();
 
 let input = document.getElementById("input-value");
 let icon = document.getElementById("icon-search")
+
+icon.addEventListener("click",()=>{
+    input.classList.add("trans")
+    input.style.opacity = "1"
+
+
+})
