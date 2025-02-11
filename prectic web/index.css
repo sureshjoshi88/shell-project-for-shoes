@@ -16,6 +16,7 @@
     gap: 18px;
     align-items: center;
     padding: 5px;
+    flex-wrap: wrap;
 }
 .header1-main div {
     display: flex;
