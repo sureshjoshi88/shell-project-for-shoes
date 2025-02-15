@@ -64,11 +64,11 @@
     color: white;
 }
 .nav-hover-pratice{
-    display: none;
     background-color: white;
     color: black;
     padding: 12px;
     border-radius: 5px;
+    display: none;
 }
 .main-for:hover .nav-hover-pratice{
     display: block;
