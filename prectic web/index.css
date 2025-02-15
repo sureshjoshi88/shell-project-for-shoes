@@ -63,6 +63,17 @@
     background-color: red;
     color: white;
 }
+.nav-hover-pratice{
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+}
+.main-for:hover .nav-hover-pratice{
+    display: block;
+    position: absolute;
+}
 .bg-main-img{
     height: auto;
     width: 100%;
