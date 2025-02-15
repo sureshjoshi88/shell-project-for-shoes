@@ -221,3 +221,7 @@
     padding: 6px;
     color: white;
 }
+.foter-hover:hover{
+    color: #0AA4E3;
+    cursor: pointer;
+}
