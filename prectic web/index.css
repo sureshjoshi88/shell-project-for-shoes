@@ -72,11 +72,20 @@
     font-size: 17.5px;
     line-height: 5.5px;
     width: 30rem;
-    margin-top: 2vh;
+    margin-top: 1vh;
+}
+.main-for:hover .nav-main1{
+    color: #0AA4E3;
+
 }
 .main-for:hover .nav-hover-pratice{
     display: block;
     position: absolute;
+}
+
+.p-hover:hover{
+color: #0AA4E3;
+cursor: pointer;
 }
 .bg-main-img{
     height: auto;
