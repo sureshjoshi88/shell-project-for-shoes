@@ -73,6 +73,7 @@
     line-height: 5.5px;
     width: 30rem;
     margin-top: 1vh;
+    font-weight: 600;
 }
 .main-for:hover .nav-main1{
     color: #0AA4E3;
