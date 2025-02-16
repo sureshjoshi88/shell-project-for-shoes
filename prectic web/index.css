@@ -69,6 +69,7 @@
     padding: 12px;
     border-radius: 5px;
     display: none;
+    font-size: 18.5px;
 }
 .main-for:hover .nav-hover-pratice{
     display: block;
