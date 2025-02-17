@@ -58,10 +58,12 @@
     background-color: red;
 }
 .button-nav{
-    padding: 16px;
+    padding: 13px;
     border-radius: 75px;
     background-color: red;
     color: white;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 .nav-hover-pratice{
     background-color: white;
