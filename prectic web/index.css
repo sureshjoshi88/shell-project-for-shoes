@@ -75,11 +75,27 @@
     margin-top: 1vh;
     font-weight: 600;
 }
+.nav-hover-pratice1{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+    display: none;
+    font-size: 17.5px;
+    /* line-height: 15.5px; */
+    width: 15rem;
+    margin-top: 1vh;
+    font-weight: 600;
+}
 .main-for:hover .nav-main1{
     color: #0AA4E3;
 
 }
 .main-for:hover .nav-hover-pratice{
+    display: block;
+    position: absolute;
+}
+.main-for:hover .nav-hover-pratice1{
     display: block;
     position: absolute;
 }
