@@ -91,6 +91,9 @@
     color: #0AA4E3;
 
 }
+.nav-main1:hover{
+    color: #0AA4E3;
+}
 .main-for:hover .nav-hover-pratice{
     display: block;
     position: absolute;
