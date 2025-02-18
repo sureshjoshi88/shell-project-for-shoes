@@ -168,6 +168,13 @@ cursor: pointer;
 .color-background-blue{
     background-color: #0AA4E3;
 }
+.img-hover-op:hover{
+    transform: scale(1.05);
+    
+    transition: all 0.2s  ease;
+    
+
+}
 .btn-for-red-container{
     border: 2px solid red;
     border-radius: 29px;
