@@ -149,6 +149,9 @@ cursor: pointer;
     padding: 7px;
 }
 
+.bg-hover-color:hover{
+    background-color: #0AA4E3;
+}
 .buton-for-child-row:hover{
     background-color: white;
     color: #17b1eec0;
