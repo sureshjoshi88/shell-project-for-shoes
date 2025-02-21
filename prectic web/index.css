@@ -175,6 +175,9 @@ cursor: pointer;
     
 
 }
+#icon-color{
+    cursor: pointer;
+}
 .btn-for-red-container{
     border: 2px solid red;
     border-radius: 29px;
