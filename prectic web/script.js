@@ -38,12 +38,3 @@ icon.addEventListener("click",()=>{
 })
 
 
-let theame = document.getElementById("icon-color");
-
-theame.addEventListener("click",()=>{
-  let mainbody = document.getElementById("main-body")
-  if(mainbody.style.backgroundColor=="white"){
-    mainbody.style.backgroundColor="black"
-    console.log("hello every")
-  }
-})
