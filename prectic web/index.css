@@ -117,6 +117,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    cursor: pointer;
 }
 .text-thr{
     color: #0AA4E3;
