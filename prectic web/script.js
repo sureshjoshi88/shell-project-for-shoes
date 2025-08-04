@@ -6,21 +6,21 @@ function getvalue(){
   for(let i = 1;i<=1994;i++){
     setTimeout(()=>{
       main.innerHTML = i;
-      main.style.fontSize = "45px"
+      main.style.fontSize = "44px"
 
     },i*3);
   }
   for(let i = 1;i<=2000;i++){
     setTimeout(()=>{
       main1.innerHTML = i;
-      main1.style.fontSize = "45px"
+      main1.style.fontSize = "44px"
 
     },i*3);
   }
   for(let i = 1;i<=2654;i++){
     setTimeout(()=>{
       main2.innerHTML = i;
-      main2.style.fontSize = "45px"
+      main2.style.fontSize = "44px"
 
     },i*3);
   }
