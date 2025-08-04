@@ -1,12 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'serif';
 }
-#main-body{
+
+#main-body {
     background-color: white;
 }
-.main-header{
+
+.main-header {
     background-color: #e2f7fe;
     display: flex;
     justify-content: space-around;
@@ -14,27 +17,31 @@
     padding: 8px;
     cursor: pointer;
     flex-wrap: wrap;
-    
+
 }
-.header1-main{
+
+.header1-main {
     display: flex;
     gap: 18px;
     align-items: center;
     padding: 5px;
     flex-wrap: wrap;
 }
+
 .header1-main div {
     display: flex;
     gap: 10px;
     align-items: baseline;
 }
-.header2-main-icon{
+
+.header2-main-icon {
     display: flex;
     position: relative;
     gap: 8px;
-   
+
 }
-.search-icon{
+
+.search-icon {
     background-color: #0AA4E3;
     padding: 10px;
     border-radius: 50%;
@@ -45,10 +52,12 @@
     align-items: center;
 
 }
-.trans{
+
+.trans {
     transition: all 0.4s 0.1s ease-in-out;
 }
-.input1{
+
+.input1 {
     opacity: 0;
     border-radius: 6px;
     border: 1px solid white;
@@ -57,10 +66,11 @@
     width: 100%;
 }
 
-.search-icon:hover{
+.search-icon:hover {
     background-color: red;
 }
-.button-nav{
+
+.button-nav {
     padding: 7px;
     border-radius: 75px;
     background-color: red;
@@ -68,7 +78,8 @@
     padding-left: 17px;
     padding-right: 17px;
 }
-.nav-hover-pratice{
+
+.nav-hover-pratice {
     background-color: white;
     color: black;
     padding: 12px;
@@ -79,7 +90,8 @@
     margin-top: 1vh;
     font-weight: 600;
 }
-.nav-hover-pratice1{
+
+.nav-hover-pratice1 {
     background-color: white;
     color: black;
     padding: 12px;
@@ -90,30 +102,35 @@
     margin-top: 1vh;
     font-weight: 600;
 }
-.main-for:hover .nav-main1{
+
+.main-for:hover .nav-main1 {
     color: #0AA4E3;
 
 }
-.nav-main1:hover{
+
+.nav-main1:hover {
     color: #0AA4E3;
     border-bottom: 2px solid #0AA4E3;
 }
-.main-for:hover .nav-hover-pratice{
-    display: block;
-    position: absolute;
-}
-.main-for:hover .nav-hover-pratice1{
+
+.main-for:hover .nav-hover-pratice {
     display: block;
     position: absolute;
 }
 
-.p-hover:hover{
-color: #0AA4E3;
-cursor: pointer;
+.main-for:hover .nav-hover-pratice1 {
+    display: block;
+    position: absolute;
+}
+
+.p-hover:hover {
+    color: #0AA4E3;
+    cursor: pointer;
     text-decoration: underline;
 
 }
-.bg-main-img{
+
+.bg-main-img {
     height: auto;
     width: 100%;
     background-image: url(https://www.practice-web.com/sliders/banner1-1587908453.jpg);
@@ -122,14 +139,16 @@ cursor: pointer;
     background-size: cover;
     cursor: pointer;
 }
-.text-thr{
+
+.text-thr {
     color: #0AA4E3;
 }
 
-.icon-hover:hover{
+.icon-hover:hover {
     transform: scale(1.7);
 }
-.background-images{
+
+.background-images {
     height: auto;
     width: 98.6vw;
     background-image: url(https://www.practice-web.com/assetsfront/img/cta-bg.jpg);
@@ -137,13 +156,15 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
-.bg-color{
+
+.bg-color {
     background-color: #17b1eec0;
     height: 100%;
 }
-.buton-for-child-row{
+
+.buton-for-child-row {
     height: 9vh;
     width: 100%;
     border-radius: 25px;
@@ -154,36 +175,43 @@ cursor: pointer;
     padding: 7px;
 }
 
-.bg-hover-color:hover{
+.bg-hover-color:hover {
     background-color: #c7e8f6;
     border-radius: 4px;
 }
-.buton-for-child-row:hover{
+
+.buton-for-child-row:hover {
     background-color: white;
     color: #17b1eec0;
 }
-.nnn{
+
+.nnn {
     line-height: 6.1px;
     font-weight: 600;
 
 }
-.hover-link:hover{
+
+.hover-link:hover {
     text-decoration: underline;
 }
-.color-background-blue{
+
+.color-background-blue {
     background-color: #0AA4E3;
 }
-.img-hover-op:hover{
+
+.img-hover-op:hover {
     transform: scale(1.05);
-    
-    transition: all 0.2s  ease;
-    
+
+    transition: all 0.2s ease;
+
 
 }
-#icon-color{
+
+#icon-color {
     cursor: pointer;
 }
-.btn-for-red-container{
+
+.btn-for-red-container {
     border: 2px solid red;
     border-radius: 29px;
     padding: 10px;
@@ -192,16 +220,19 @@ cursor: pointer;
     background-color: transparent;
     font-size: 17px;
 }
-.btn-for-red-container:hover{
+
+.btn-for-red-container:hover {
     background-color: red;
     color: white;
     font-size: 18px;
 }
-.font-color{
+
+.font-color {
     color: #0AA4E3;
     font-size: 42px;
 }
-.div-for-bg-color{
+
+.div-for-bg-color {
     height: 37px;
     width: 100%;
     background-color: #0AA4E3;
@@ -211,15 +242,18 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
 }
-.bottom-bg-color{
+
+.bottom-bg-color {
     height: 6px;
     width: 100%;
     background-color: #0AA4E3;
 }
-.box-shadow-div{
+
+.box-shadow-div {
     box-shadow: -3px 2px 20px 3px rgba(0, 0, 0, 0.568);
 }
-.icon-parent{
+
+.icon-parent {
     height: 50px;
     width: 50px;
     background-color: #0AA4E3;
@@ -230,25 +264,30 @@ cursor: pointer;
     align-items: center;
     font-size: 19px;
 }
-.line-height{
+
+.line-height {
     line-height: 6px;
 }
-.fon-down{
+
+.fon-down {
     font-size: 13px;
 }
-.div-for-x-scroll{
+
+.div-for-x-scroll {
     display: flex;
     gap: 21px;
     overflow-x: scroll;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
-.fix-width{
+
+.fix-width {
     min-width: 22rem;
 }
 
-.bg-imges-short{
+.bg-imges-short {
     background-image: url("https://www.practice-web.com/assetsfront/img/counters-bg.jpg");
     height: auto;
     width: 98.6vw;
@@ -256,16 +295,19 @@ cursor: pointer;
     background-size: cover;
     background-attachment: fixed;
 }
-.div-color-child{
+
+.div-color-child {
     background-color: #0aa5e3cb;
     height: 100%;
     width: 98.6vw;
 }
-.color-text{
+
+.color-text {
     color: #0AA4E3;
 
 }
-.foter-icon-div{
+
+.foter-icon-div {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -273,26 +315,30 @@ cursor: pointer;
     color: white;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     font-size: 22px;
-    transition: all  0.5s;
+    transition: all 0.5s;
 }
-.foter-icon-div:hover{
+
+.foter-icon-div:hover {
     background-color: crimson;
     color: white;
     transform: scale(1.2);
-   
+
 }
-.input-clas{
+
+.input-clas {
     border: 1.6px solid white;
     border-radius: 5px;
     padding: 6px;
     color: white;
 }
-.foter-hover:hover{
+
+.foter-hover:hover {
     color: #0AA4E3;
     cursor: pointer;
 }
-.img-curser{
+
+.img-curser {
     cursor: pointer;
 }
